@@ -25,6 +25,12 @@ namespace GradeBook.GradeBooks
             {
                 return 'B';
             }
+
+            if (percentOfHigherAverageGrade < 0.6)
+            {
+                return 'C';
+            }
+
             return 'F';
         }
     }
